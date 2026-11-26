@@ -30,6 +30,8 @@ src/
     App.jsx
     components/
 docs/adr/            Architecture Decision Records
+docs/diagrams/       context, component and deployment views (SVG + PNG)
+docs/report/         architecture report (Markdown + PDF)
 .github/workflows/   test and deploy pipeline
 ```
 
@@ -46,6 +48,12 @@ npm run build      # production build in dist/
 ## Test results
 
 51 tests, 100% statement, branch, function and line coverage on the domain layer (threshold 80%).
+
+## Documentation
+
+- [Architecture report (PDF, 7 pages)](docs/report/architecture-report.pdf), with the source in [Markdown](docs/report/architecture-report.md)
+- Architecture views: [context](docs/diagrams/context-view.png), [component](docs/diagrams/component-view.png), [deployment](docs/diagrams/deployment-view.png)
+- Architecture Decision Records: [`docs/adr`](docs/adr)
 
 ## Tools and AI assistants used
 
