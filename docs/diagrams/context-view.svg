@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="960" height="470" fill="#fff"/>
+  <text x="480" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">Context view: Unit Converter and its environment</text>
+
+  <!-- system boundary -->
+  <rect x="330" y="150" width="300" height="150" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="480" y="190" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e3a8a">Unit Converter SPA</text>
+  <text x="480" y="214" text-anchor="middle" font-size="13" fill="#1e3a8a">React + Vite, static files only</text>
+  <text x="480" y="234" text-anchor="middle" font-size="13" fill="#1e3a8a">runs entirely in the browser</text>
+  <text x="480" y="254" text-anchor="middle" font-size="13" fill="#1e3a8a">no back end, no account</text>
+  <text x="480" y="284" text-anchor="middle" font-size="12" font-style="italic" fill="#1e3a8a">(system under design)</text>
+
+  <!-- user -->
+  <circle cx="90" cy="180" r="20" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+  <path d="M55,250 Q90,200 125,250 z" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+  <text x="90" y="275" text-anchor="middle" font-size="15" font-weight="bold">User</text>
+  <text x="90" y="293" text-anchor="middle" font-size="12">desktop or phone</text>
+  <line x1="130" y1="225" x2="325" y2="225" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="228" y="214" text-anchor="middle" font-size="12">types value, picks units</text>
+  <text x="228" y="245" text-anchor="middle" font-size="12">sees result instantly</text>
+
+  <!-- localStorage -->
+  <rect x="380" y="370" width="200" height="60" rx="6" fill="#f3f4f6" stroke="#4b5563" stroke-width="2"/>
+  <text x="480" y="396" text-anchor="middle" font-size="15" font-weight="bold">Browser localStorage</text>
+  <text x="480" y="415" text-anchor="middle" font-size="12">last 10 conversions</text>
+  <line x1="480" y1="300" x2="480" y2="365" stroke="#333" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="490" y="338" font-size="12">read / write history</text>
+
+  <!-- GitHub Pages -->
+  <rect x="720" y="170" width="200" height="110" rx="6" fill="#f3f4f6" stroke="#4b5563" stroke-width="2"/>
+  <text x="820" y="205" text-anchor="middle" font-size="15" font-weight="bold">GitHub Pages</text>
+  <text x="820" y="226" text-anchor="middle" font-size="12">static hosting, HTTPS</text>
+  <text x="820" y="244" text-anchor="middle" font-size="12">public link, no sign-in</text>
+  <line x1="715" y1="225" x2="635" y2="225" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="675" y="214" text-anchor="middle" font-size="12">serves</text>
+  <text x="675" y="245" text-anchor="middle" font-size="12">HTML/JS/CSS</text>
+
+  <!-- GitHub Actions -->
+  <rect x="720" y="60" width="200" height="70" rx="6" fill="#f3f4f6" stroke="#4b5563" stroke-width="2"/>
+  <text x="820" y="88" text-anchor="middle" font-size="15" font-weight="bold">GitHub Actions</text>
+  <text x="820" y="108" text-anchor="middle" font-size="12">test, coverage gate, build</text>
+  <line x1="820" y1="130" x2="820" y2="165" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="830" y="152" font-size="12">deploys dist/</text>
+
+  <!-- GitHub repo + developer -->
+  <rect x="380" y="60" width="200" height="60" rx="6" fill="#f3f4f6" stroke="#4b5563" stroke-width="2"/>
+  <text x="480" y="86" text-anchor="middle" font-size="15" font-weight="bold">GitHub repository</text>
+  <text x="480" y="105" text-anchor="middle" font-size="12">ologunv/Unit-converter-app</text>
+  <line x1="580" y1="92" x2="715" y2="92" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="648" y="84" text-anchor="middle" font-size="12">push to main</text>
+
+  <circle cx="90" cy="60" r="16" fill="#bbf7d0" stroke="#166534" stroke-width="2"/>
+  <path d="M62,115 Q90,75 118,115 z" fill="#bbf7d0" stroke="#166534" stroke-width="2"/>
+  <text x="90" y="135" text-anchor="middle" font-size="15" font-weight="bold">Developer</text>
+  <line x1="125" y1="90" x2="375" y2="90" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+  <text x="250" y="82" text-anchor="middle" font-size="12">git push (code, tests, docs)</text>
+</svg>
