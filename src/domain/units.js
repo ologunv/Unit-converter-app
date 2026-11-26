@@ -14,7 +14,7 @@ export const categories = {
       in: { label: 'Inch', factor: 0.0254 },
       ft: { label: 'Foot', factor: 0.3048 },
       yd: { label: 'Yard', factor: 0.9144 },
-      mi: { label: 'Mile', factor: 1600 },
+      mi: { label: 'Mile', factor: 1609.344 },
     },
   },
   weight: {
