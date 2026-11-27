@@ -3,8 +3,7 @@
 CMPS 570 Software Architecture, Final Project (Project 10).
 Main quality attribute: **Testability**.
 
-**Live app:** https://ologunv.github.io/Unit-converter-app/\
-**Demo video:** https://www.loom.com/share/3454b09fba6941e994edc0c98a2650ac
+**Live app:** https://ologunv.github.io/Unit-converter-app/
 
 ## What the app does
 
